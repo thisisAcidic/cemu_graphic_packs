@@ -1,3 +1,12 @@
 [LCU60FPSEUv16]
 moduleMatches = 0xd20260c6
 0x025d0d9c = addi r11, r12, 1
+
+[LCU60FPSEUv0]
+moduleMatches = 0x01d048b1
+
+# swap once per frame instead of twice
+0x025d65bc = nop
+
+# use the measured frame time instead of a fixed 1/30 step
+0x02413b70 = lfs f0, 0x28c4(r8)
