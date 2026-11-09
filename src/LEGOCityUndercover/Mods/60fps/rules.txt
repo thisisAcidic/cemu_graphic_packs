@@ -2,5 +2,5 @@
 titleIds = 0005000010101B00
 name = 60FPS
 path = "Lego City Undercover/60FPS"
-description = Important: This patches the gameplay to be in 60FPS. Getting under 60FPS will slow down the game's speed.
+description = Important: This patches the gameplay to be in 60FPS. Getting under 60FPS will slow down the game's speed, except on EU v0 where the game uses the measured frame time.
 version = 7
